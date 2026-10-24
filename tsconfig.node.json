@@ -7,7 +7,7 @@
     "skipLibCheck": true,
 
     // "baseUrl": ".",
-    // "paths": { "@/*": ["src/*"] },
+    "paths": { "@/*": ["./src/*"] },
 
     /* Bundler mode */
     "module": "nodenext",
