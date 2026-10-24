@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write src",
+    "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
     "@fontsource-variable/vazirmatn": "^5.3.0",

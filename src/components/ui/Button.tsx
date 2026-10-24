@@ -9,12 +9,9 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variants: Record<Variant, string> = {
-  primary:
-    'bg-primary text-on-primary hover:bg-primary-hover active:bg-primary-pressed',
-  secondary:
-    'border border-border-input bg-surface text-text-primary hover:bg-surface-secondary',
-  danger:
-    'bg-error text-text-inverse hover:bg-error-hover active:bg-error-pressed',
+  primary: 'bg-primary text-on-primary hover:bg-primary-hover active:bg-primary-pressed',
+  secondary: 'border border-border-input bg-surface text-text-primary hover:bg-surface-secondary',
+  danger: 'bg-error text-text-inverse hover:bg-error-hover active:bg-error-pressed',
 }
 
 // حداقل هدف لمس ۴۴px (WCAG)، دکمه بزرگ ۵۲px

@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* ============================================
    Crumb Design System v1.0 — Design Tokens
@@ -6,7 +6,7 @@
 
 @theme {
   /* ---------- Font ---------- */
-  --font-sans: "Vazirmatn Variable", system-ui, sans-serif;
+  --font-sans: 'Vazirmatn Variable', system-ui, sans-serif;
 
   /* ---------- Colors: surfaces ---------- */
   --color-background: #f6f0e5;
@@ -64,15 +64,15 @@
   --shadow-3: 0 16px 40px rgb(38 61 50 / 0.14);
 
   /* ---------- Breakpoints ---------- */
-  --breakpoint-sm: 48rem;   /* 768px — tablet */
-  --breakpoint-lg: 64rem;   /* 1024px — desktop */
-  --breakpoint-xl: 90rem;   /* 1440px — wide desktop */
+  --breakpoint-sm: 48rem; /* 768px — tablet */
+  --breakpoint-lg: 64rem; /* 1024px — desktop */
+  --breakpoint-xl: 90rem; /* 1440px — wide desktop */
 }
 
 /* ============================================
    Dark theme (از صفحه ۳ فیگما)
    ============================================ */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --color-background: #17231d;
   --color-surface: #202e26;
   --color-text-primary: #f4f0e7;
@@ -96,7 +96,7 @@
   body {
     margin: 0;
     min-height: 100vh;
-    font-size: 14px;     /* body/MD */
+    font-size: 14px; /* body/MD */
     line-height: 21px;
   }
 
@@ -111,16 +111,64 @@
    Typography scale (از صفحه ۱ فیگما)
    ============================================ */
 @layer components {
-  .text-display-xl { font-size: 40px; line-height: 44px; font-weight: 700; }
-  .text-title-xl   { font-size: 32px; line-height: 38px; font-weight: 700; }
-  .text-title-lg   { font-size: 24px; line-height: 32px; font-weight: 600; }
-  .text-title-md   { font-size: 20px; line-height: 28px; font-weight: 600; }
-  .text-title-sm   { font-size: 16px; line-height: 22px; font-weight: 600; }
-  .text-body-lg    { font-size: 16px; line-height: 24px; font-weight: 400; }
-  .text-body-md    { font-size: 14px; line-height: 21px; font-weight: 400; }
-  .text-label-lg   { font-size: 16px; line-height: 24px; font-weight: 600; }
-  .text-label-md   { font-size: 14px; line-height: 20px; font-weight: 600; }
-  .text-caption    { font-size: 12px; line-height: 16px; font-weight: 500; }
-  .text-price-lg   { font-size: 24px; line-height: 32px; font-weight: 700; }
-  .text-price-md   { font-size: 18px; line-height: 24px; font-weight: 700; }
+  .text-display-xl {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+  .text-title-xl {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+  }
+  .text-title-lg {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  .text-title-md {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+  .text-title-sm {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .text-body-lg {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .text-body-md {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  .text-label-lg {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .text-label-md {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .text-caption {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .text-price-lg {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  .text-price-md {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+  }
 }
